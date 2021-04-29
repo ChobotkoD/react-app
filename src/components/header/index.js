@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <HeaderContainer>
         <HeaderLinks>
-          <NavLink to="/">
+          <NavLink to="/react-app">
             <span>Main</span>
           </NavLink>
           <NavLink to="/favourites">
