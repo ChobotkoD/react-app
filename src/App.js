@@ -12,7 +12,7 @@ function App() {
       <Header />
 
       <Switch>
-        <Route path="/" exact render={() => <MainPage />} />
+        <Route path="/react-app" exact render={() => <MainPage />} />
         <Route path="/favourites" render={() => <FavouritesPage />} />
         <Route render={() => <h1>not found</h1>} />
       </Switch>
